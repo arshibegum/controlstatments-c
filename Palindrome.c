@@ -10,8 +10,8 @@ int main()
         rev=rev*10+r;
         n=n/10;
     }
-    if(rev!=t)
-    printf("False");
-    else
-    printf("True");
+     if(rev==t)
+     printf("Palindrome");
+     else
+     printf("Not Palindrome");
 }
